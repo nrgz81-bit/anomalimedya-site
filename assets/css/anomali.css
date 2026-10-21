@@ -233,3 +233,41 @@ ul.icons.alt li .threads-ikon::after { width: 1rem; height: 1rem; }
 @media screen and (max-width: 736px) { #intro .giris-sosyal { display: flex !important; justify-content: center; } }
 
 #nav ul.icons .threads-ikon::after { width: 1.3em; height: 1.3em; top: 46%; }
+
+/* ---- Liste sayfası ---- */
+.liste-bas header.major .liste-etiket { margin-bottom: 1.5rem; }
+.liste-sec { display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: center; margin-top: -1rem; }
+.liste-sec .button.cold { box-shadow: inset 0 0 0 2px #FF1E1E; }
+.liste-sec .button.derin { box-shadow: inset 0 0 0 2px #8A00FF; }
+.liste-sec .button.havadis { box-shadow: inset 0 0 0 2px #FFD200; }
+.liste-sec .button.primary.cold { background: #FF1E1E; color: #fff !important; }
+.liste-sec .button.primary.derin { background: #8A00FF; color: #fff !important; }
+.liste-sec .button.primary.havadis { background: #FFD200; color: #111 !important; }
+
+/* ---- Dosya sayfası ---- */
+.dosya-sayfa header.major { margin-bottom: 2rem; }
+.dosya-sayfa a.liste-etiket { border-bottom: solid 2px; }
+.kunye { display: flex; flex-wrap: wrap; justify-content: center; gap: 0; margin: 0 0 2.5rem 0; border-top: solid 1px #e2e2e2; border-bottom: solid 1px #e2e2e2; }
+.kunye div { padding: 0.9rem 1.6rem; border-left: solid 1px #e2e2e2; text-align: center; }
+.kunye div:first-child { border-left: 0; }
+.kunye dt { font-family: "Source Sans Pro", Helvetica, sans-serif; font-weight: 900; font-size: 0.65rem; letter-spacing: 0.25rem; text-transform: uppercase; color: #909498; margin: 0; }
+.kunye dd { margin: 0.2rem 0 0 0; font-family: "Courier Prime", "Courier New", monospace; font-size: 0.95rem; color: #212931; }
+.dosya-kareler { display: grid; gap: 0.8rem; margin: 0 0 2.5rem 0; grid-template-columns: 1fr 1fr; }
+.dosya-kareler.k1 { grid-template-columns: 1fr; }
+.dosya-kareler.k3 figure:first-child { grid-column: span 2; }
+.dosya-kareler figure { margin: 0; position: relative; background: #111; outline: solid 1px rgba(0,0,0,0.1); }
+.dosya-kareler img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.dosya-kareler figcaption { position: absolute; left: 0; bottom: 0; padding: 0.4rem 0.7rem; font-family: "Courier Prime", "Courier New", monospace; font-size: 0.7rem; color: #EEE8DA; background: rgba(10,9,9,0.75); }
+.ara-baslik { font-size: 0.8rem; letter-spacing: 0.3rem; text-transform: uppercase; text-align: center; }
+.ozet { font-size: 1.1rem; line-height: 1.9; max-width: 44rem; margin: 0 auto 2rem auto; }
+.ozet mark { background: linear-gradient(transparent 58%, rgba(255,30,30,0.28) 58%, rgba(255,30,30,0.28) 90%, transparent 90%); color: inherit; }
+.izle-kutu .button.primary { background: #FF1E1E; box-shadow: none; }
+.geri { text-align: center; font-size: 0.9rem; }
+@media screen and (max-width: 736px) {
+	.dosya-kareler { grid-template-columns: 1fr; }
+	.dosya-kareler.k3 figure:first-child { grid-column: auto; }
+	.kunye div { padding: 0.6rem 0.9rem; }
+	.ozet { font-size: 1rem; }
+}
+
+.dosya-sayfa header.major a.liste-etiket { display: table; margin: 0 auto 1.4rem auto; }

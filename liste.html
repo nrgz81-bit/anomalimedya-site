@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<!--
+	ANOMALİ — anomalimedya.com
+	Şablon: Massively by HTML5 UP (html5up.net | @ajlkn), CCA 3.0 lisansı
+-->
+<html lang="tr">
+	<head>
+		<title>ANOMALİ — Gerçek suç ve gizem belgeselleri</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="ANOMALİ, gerçek suç ve gizem dosyalarını belgelerle anlatan bir belgesel kanalıdır. Cold Case, Derin İşler ve Havadis oynatma listeleri." />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/anomali.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+					<header id="header">
+						<a href="index.html" class="logo">ANOMALİ</a>
+					</header>
+<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html#main">Son dosyalar</a></li>
+							<li><a href="index.html#listeler">Oynatma listeleri</a></li>
+							<li><a href="index.html#kareler">Kareler</a></li>
+							<li><a href="index.html#hakkinda">Hakkında</a></li>
+							<li><a href="#footer">İletişim</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.youtube.com/channel/UCyVfsUZTMqNmFXRKBqNx77g" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+							<li><a href="https://www.instagram.com/anomalimedyatr" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.threads.com/@anomalimedyatr" class="icon threads-ikon"><span class="label">Threads</span></a></li>
+							<li><a href="mailto:iletisim@anomalimedya.com" class="icon solid fa-envelope"><span class="label">E-posta</span></a></li>
+						</ul>
+					</nav>
+
+				
+					<div id="main">
+						<section class="post liste-bas">
+							<header class="major">
+								<span class="liste-etiket" id="etiket"></span>
+								<h1 id="baslik"></h1>
+								<p id="acik"></p>
+							</header>
+							<div class="liste-sec" id="liste-sec"></div>
+						</section>
+						<section class="posts" id="videolar"></section>
+						<footer><div class="pagination"><a class="next" id="yt-liste" target="_blank" rel="noopener">Listeyi YouTube'da aç</a></div></footer>
+					</div>
+<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+								<h3>İletişim</h3>
+								<p><a href="mailto:iletisim@anomalimedya.com">iletisim@anomalimedya.com</a></p>
+							</section>
+							<section>
+								<h3>İşbirliği</h3>
+								<p><a href="mailto:isbirligi@anomalimedya.com">isbirligi@anomalimedya.com</a></p>
+							</section>
+							<section>
+								<h3>YouTube</h3>
+								<p><a href="https://www.youtube.com/channel/UCyVfsUZTMqNmFXRKBqNx77g">@anomalitürkiye</a></p>
+							</section>
+							<section>
+								<h3>Sosyal</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.youtube.com/channel/UCyVfsUZTMqNmFXRKBqNx77g" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+									<li><a href="https://www.instagram.com/anomalimedyatr" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.threads.com/@anomalimedyatr" class="icon alt threads-ikon"><span class="label">Threads</span></a></li>
+								</ul>
+							</section>
+							<section>
+								<h3>Instagram · Threads</h3>
+								<p><a href="https://www.instagram.com/anomalimedyatr">@anomalimedyatr</a></p>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; ANOMALİ 2026</li><li>Tasarım: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	
+<script src="assets/js/dosyalar.js"></script>
+<script>
+const LISTE = {
+  cold:    { ad:'Cold Case',   renk:'cold',    yt:'PL6TRIugwN7QX7vmYx9d5QgnBgujGQ5Q1b', acik:'İlginç adli vakaları araştırdığımız dosyalar.' },
+  derin:   { ad:'Derin İşler', renk:'derin',   yt:'PL6TRIugwN7QWEcq-kUJKHiwGOpNysEOlc', acik:'Olayların arka planını anlamaya çalıştığımız serimiz.' },
+  havadis: { ad:'Havadis',     renk:'havadis', yt:'PL6TRIugwN7QVBLuHmSA-9O_YUpNxHZn48', acik:'Gündemdeki olayların arka planını hızlıca anlattığımız serimiz.' }
+};
+const q = new URLSearchParams(location.search);
+function kisa(t, n){ const c = t.split('. '); let o=''; for (const x of c){ if((o+x).length>n) break; o += x + '. '; } return (o || t.slice(0,n)).trim(); }
+</script>
+
+<script>
+const l = LISTE[q.get('l')] ? q.get('l') : 'cold', L = LISTE[l];
+document.title = 'ANOMALİ — ' + L.ad;
+const et = document.getElementById('etiket'); et.textContent = L.ad; et.classList.add(L.renk);
+document.getElementById('baslik').textContent = L.ad;
+document.getElementById('acik').textContent = L.acik;
+document.getElementById('yt-liste').href = 'https://www.youtube.com/playlist?list=' + L.yt;
+document.getElementById('liste-sec').innerHTML = Object.entries(LISTE).map(([k,v]) =>
+  `<a class="button ${k===l?'primary':''} ${v.renk}" href="liste.html?l=${k}">${v.ad}</a>`).join('');
+document.getElementById('videolar').innerHTML = window.DOSYALAR.filter(d => d.liste === l).map(d => `
+  <article>
+    <header>
+      <span class="date">${d.tarih} · ${d.yer}</span>
+      <h2><a href="dosya.html?id=${d.id}">${d.ad}</a></h2>
+    </header>
+    <a href="dosya.html?id=${d.id}" class="image fit"><img src="images/dosya/${d.kare[0][0]}" alt="" loading="lazy" /></a>
+    <p>${kisa(d.ozet, 150)}</p>
+    <ul class="actions special"><li><a href="dosya.html?id=${d.id}" class="button">Dosyayı aç · ${d.sure}</a></li></ul>
+  </article>`).join('');
+</script>
+</body>
+</html>
