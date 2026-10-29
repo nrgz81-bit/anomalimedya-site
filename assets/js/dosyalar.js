@@ -21,7 +21,7 @@ window.DOSYALAR = [
   kare:[['gg_dna.jpg','SK1 · DNA'],['gg_harita.jpg','Yakalandı'],['gg_gazete.jpg','France-Soir, 1997'],['gg_tutanak.jpg','İfade tutanağı'],['gg_takvim.jpg','1991–1998']],
   harita:[48.853,2.369] },
 
-{ id:'aglak', liste:'cold', no:'1981/004', ad:'İnsanlar Sokağa Çıkamadı', yer:'Minnesota, ABD', tarih:'1981–1982',
+{ id:'aglak', liste:'cold', no:'1981/004', ad:'AĞLAK SESLİ KATİL', yer:'Minnesota, ABD', tarih:'1981–1982',
   v:'DwsY4PlKY9Q', sure:'19 dk', durum:'ÇÖZÜLDÜ',
   ozet:'80\'li yıllarda Minnesota\'da kadınların yıllarca gece dışarı çıkmaktan çekinmesine sebep olan, filmlere konu olan ve literatüre \'Ağlak Sesli\' olarak geçen Paul Michael Stephani davasını sizin için hazırladık. Soruşturma sürecinde polisin yaptığı inanılmaz hataları izleyince çok şaşıracaksınız.',
   not:'Sabah saat 3:00\'te gelen bir telefon, iki şehrin kadınlarının tam iki yıl göreceği bir kabusun başlangıcı olacaktı.',
@@ -32,7 +32,7 @@ window.DOSYALAR = [
          ['1982','Telefon kayıtları eşleşir. Paul Michael Stephani tutuklanır.']],
   kare:[['kapak_aglak.jpg','Minnesota']], harita:[44.954,-93.090] },
 
-{ id:'dedektif', liste:'cold', no:'1982/017', ad:'37 Yıl Çözülemeyen Dosya', yer:'Tahoe Gölü, ABD', tarih:'1982–2019',
+{ id:'dedektif', liste:'cold', no:'1982/017', ad:'MARY SILVANI DOSYASI', yer:'Tahoe Gölü, ABD', tarih:'1982–2019',
   v:'ORldwIXzuE8', sure:'16 dk', durum:'ÇÖZÜLDÜ',
   ozet:'Ne kurbanın ne de zanlının kim olduğunun bilinmediği bir dava düşünün. Yıllarca ilerleme kaydedilemeyen bir dosya. Ta ki bir dedektif, yıllardır elde bulunan delillere farklı bir açıdan bakana kadar… Onun sıra dışı yaklaşımı ve bilimin yardımıyla Mary Silvani dosyası sonunda aydınlatıldı.',
   not:'Kurbanın yanında kim olduğunu gösteren hiçbir belge yoktu. Ne bir cüzdan, ne bir kimlik, ne de adresinin yazılı olduğu bir not.',
@@ -42,7 +42,7 @@ window.DOSYALAR = [
          ['2019','Aynı yöntemle fail de belirlenir. Dosya 37 yıl sonra kapanır.']],
   kare:[['yt_ORldwIXzuE8.jpg','Tahoe Gölü']], harita:[39.03,-120.03] },
 
-{ id:'kimse', liste:'cold', no:'2022/051', ad:'Takıntılı Aşık Dehşet Saçtı', yer:'Austin, Teksas', tarih:'2022',
+{ id:'kimse', liste:'cold', no:'2022/051', ad:'MORIAH WILSON CİNAYETİ', yer:'Austin, Teksas', tarih:'2022',
   v:'DMSm7R0Zic0', sure:'14 dk', durum:'ÇÖZÜLDÜ',
   ozet:'Geleceğin en büyük sporcularından biri olarak gösterilen genç bir kadın, trajik bir son ve ardında cevap bekleyen onlarca soru… Onu kim, neden öldürdü? Polisin yoğun aramaları, ortaya çıkan sırlar ve ülke sınırlarını aşan uluslararası bir kaçışla giderek karmaşıklaşan bu dosyada yaşananları adım adım inceliyoruz.',
   not:'Dışarıdan kusursuz görünen insanların iç dünyaları...',
@@ -53,7 +53,7 @@ window.DOSYALAR = [
          ['Kasım 2023','Kaitlin Armstrong suçlu bulunur ve 90 yıl hapis cezası alır.']],
   kare:[['yt_DMSm7R0Zic0.jpg','Austin']], harita:[30.267,-97.743] },
 
-{ id:'gibbons', liste:'cold', no:'1981/032', ad:'Gibbons İkizleri', yer:'Galler, Birleşik Krallık', tarih:'1963–1993',
+{ id:'gibbons', liste:'cold', no:'1981/032', ad:'GIBBONS İKİZLERİ', yer:'Galler, Birleşik Krallık', tarih:'1963–1993',
   v:'x6HzNrCTqSo', sure:'13 dk', durum:'KAPANDI',
   ozet:'June ve Jennifer Gibbons sadece birbirleriyle konuştular. "Sessiz İkizler" olarak bilinen kardeşlerin hikayesi, çocukça bir oyundan çıkıp kundakçılığa, Broadmoor Akıl Hastanesi\'ne ve sonunda tüyler ürperten bir "ölüm anlaşmasına" dönüştü. Peki gerçekten neler oldu? İkizlerin başına neler gelmişti? Anomali\'de bu hafta, psikoloji tarihinin en garip vakalarından birini inceliyoruz.',
   not:'June ve Jennifer Gibbons. Sadece birbirleriyle konuştular.',
@@ -78,7 +78,7 @@ window.DOSYALAR = [
   kare:[['co_kroki.jpg','Batı girişi, 11.19'],['co_911.jpg','911 kaydı'],['co_arama.jpg','Arama emri taslağı'],['co_maket.jpg','Okul maketi'],['co_guzergah.jpg','Güzergâh, 11.44']],
   harita:[39.603,-105.075] },
 
-{ id:'unabomber', liste:'derin', no:'1996/003', ad:'Unabomber × MK Ultra', yer:'Montana, ABD', tarih:'1978–1996',
+{ id:'unabomber', liste:'derin', no:'1996/003', ad:'UNABOMBER', yer:'Montana, ABD', tarih:'1978–1996',
   v:'0Mv1H_fLnug', sure:'22 dk', durum:'ARŞİV',
   ozet:'Yaklaşık yirmi yıl boyunca yakalanmayan Unabomber’ın (Ted Kaczynski) hayatını tüm detaylarıyla araştırdığınızda ortaya oldukça garip bir durum çıkıyor. Bir cani miydi, yoksa çocukluk travmaları ve üzerinde yapılan deneyler mi onun bu hale gelmesine sebep oldu?',
   not:'Kaczynski\'nin hayatına detaylı baktığınızda birtakım gariplikler dikkatinizi çekiyor.',
@@ -89,7 +89,7 @@ window.DOSYALAR = [
          ['3 Nisan 1996','Lincoln, Montana\'daki kulübesinde yakalanır.']],
   kare:[['kapak_unabomber.jpg','Lincoln, Montana']], harita:[46.958,-112.682] },
 
-{ id:'ipekyolu', liste:'derin', no:'2013/010', ad:'ROSS ULBRICHT: DARK WEB\'İN KRALI', yer:'San Francisco, ABD', tarih:'2011–2015',
+{ id:'ipekyolu', liste:'derin', no:'2013/010', ad:'İPEK YOLU (SILK ROAD)', yer:'San Francisco, ABD', tarih:'2011–2015',
   v:'UBeL_3GaE80', sure:'23 dk', durum:'ARŞİV',
   ozet:'İnternetin en büyük illegal alışveriş ağlarından Silk Road, yani İpek Yolu’nun kurucusu Ross Ulbricht’in inanılmaz hikâyesini sizin için derledik. İpek Yolu’nu kurarken Ross Ulbricht’in motivasyonu neydi? Yıllarca nasıl yakalanmadı? Onu yakalamak için yürütülen soruşturmada görev alan bazı ajanlar nasıl rüşvet ve kara para suçlarına bulaştı? Ve bütün bunların ardından, davanın üzerinde neden hâlâ bu kadar çok soru işareti bulunuyor?',
   not:'', zaman:[['Şubat 2011','İpek Yolu (Silk Road) yayına girer.'],
@@ -98,7 +98,7 @@ window.DOSYALAR = [
          ['2015','Müebbet hapis cezası alır.']],
   kare:[['yt_UBeL_3GaE80.jpg','San Francisco']], harita:[37.734,-122.433] },
 
-{ id:'aum', liste:'derin', no:'1995/020', ad:'Şiva Uyanırsa', yer:'Tokyo, Japonya', tarih:'1984–1995',
+{ id:'aum', liste:'derin', no:'1995/020', ad:'AUM SHINRIKYO', yer:'Tokyo, Japonya', tarih:'1984–1995',
   v:'8NwAIMmurP0', sure:'18 dk', durum:'ARŞİV',
   ozet:'1995 yılında Japonya\'da meydana gelen ve tüm ülkeyi etkileyen Tokyo Metrosu olayını ve Aum Shinrikyo\'nun tarihsel sürecini inceliyoruz.',
   not:'Kısa bir süre sonra Tokyo cehenneme dönecekti.',
@@ -109,7 +109,7 @@ window.DOSYALAR = [
          ['2018','Asahara ve tarikatın önde gelen üyeleri idam edilir.']],
   kare:[['yt_8NwAIMmurP0.jpg','Tokyo metrosu']], harita:[35.681,139.767] },
 
-{ id:'waco', liste:'derin', no:'1993/051', ad:'Waco Katliamı', yer:'Teksas, ABD', tarih:'1993',
+{ id:'waco', liste:'derin', no:'1993/051', ad:'WACO KATLİAMI', yer:'Teksas, ABD', tarih:'1993',
   v:'Ki16JWtnHmc', sure:'16 dk', durum:'ARŞİV',
   ozet:'1993 yılında Teksas\'ın Waco kasabasında başlayan operasyon, Amerikan tarihinin en büyük trajedilerinden birine dönüştü. Kendi "Kıyamet Ordusu"nu kuran David Koresh’in yükselişinden, 51 gün süren o "Vietnam Simülasyonu" kuşatmaya kadar her detayı bu videoda bulacaksınız.',
   not:'Operasyonun birkaç saat içinde bitmesi bekleniyordu. Ancak operasyon tam 51 gün sürdü.',
@@ -119,7 +119,7 @@ window.DOSYALAR = [
          ['19 Nisan 1993','Bina yangında yok olur. Koresh dahil onlarca kişi hayatını kaybeder.']],
   kare:[['yt_Ki16JWtnHmc.jpg','Mount Carmel']], harita:[31.596,-97.006] },
 
-{ id:'palantir', liste:'derin', no:'2003/001', ad:'Seni İzliyor', yer:'Silikon Vadisi, ABD', tarih:'2003–2026',
+{ id:'palantir', liste:'derin', no:'2003/001', ad:'PALANTIR', yer:'Silikon Vadisi, ABD', tarih:'2003–2026',
   v:'SHUsFrYH5DY', sure:'12 dk', durum:'ARŞİV',
   ozet:'Son günlerin en çok tartışılan şirketi Palantir nasıl kuruldu? Diğerlerinden ayrılan özellikleri nedir? Nasıl çalışıyor ve kurucusu Peter Thiel nasıl bir dünya istiyor? Hepsinin cevapları bu videoda.',
   not:'Bu sistemin diğerlerinden farkı anlık işlemleri değil, örüntüleri takip etmesiydi.',
@@ -129,7 +129,7 @@ window.DOSYALAR = [
          ['2020','Şirket halka açılır.']],
   kare:[['yt_SHUsFrYH5DY.jpg','Palantir']], harita:[37.444,-122.161] },
 
-{ id:'epstein', liste:'derin', no:'2019/008', ad:'Epstein Belgeleri', yer:'New York, ABD', tarih:'2008–2025',
+{ id:'epstein', liste:'derin', no:'2019/008', ad:'EPSTEIN DOSYASI', yer:'New York, ABD', tarih:'2008–2025',
   v:'WhtB6hUHk4c', sure:'14 dk', durum:'ARŞİV',
   ozet:'Olayın perde arkası, "L. Express" ve uçuşlar, pasaport gizemi, şişeler ve gizemli koltuk, dosyadaki "üst düzey" isimler, finansal ağ ve ortaklar. Neden şimdi?',
   not:'', zaman:[['2008','Florida\'da tartışmalı bir anlaşmayla hafif ceza alır.'],
@@ -139,7 +139,7 @@ window.DOSYALAR = [
   kare:[['yt_WhtB6hUHk4c.jpg','New York']], harita:[40.774,-73.965] },
 
 /* ===================== HAVADİS ===================== */
-{ id:'maduro', liste:'havadis', no:'2026/001', ad:'Maduro Kaçırıldı', yer:'Caracas, Venezuela', tarih:'3 Ocak 2026',
+{ id:'maduro', liste:'havadis', no:'2026/001', ad:'MADURO OPERASYONU', yer:'Caracas, Venezuela', tarih:'3 Ocak 2026',
   v:'42IWnbxVvGg', sure:'6 dk', durum:'GÜNDEM',
   ozet:'3 Ocak 2026... Dünya siyasetinde kartların yeniden dağıtıldığı gece olarak anılacak. Amerika Birleşik Devletleri\'nin düzenlediği gizli bir operasyonla Venezuela Devlet Başkanı Nicolas Maduro\'yu nasıl kaçırdı. HAVADİS\'in bu bölümünde, Karakas semalarındaki siber karartmadan, Delta Force timlerinin saray baskınına ve Maduro\'nun USS Iwo Jima gemisine götürülüşüne kadar yaşananları dakika dakika inceliyoruz.',
   not:'Yıllardır süren gerilim, Hollywood filmlerini aratmayan bir operasyonla son buldu.',
@@ -150,7 +150,7 @@ window.DOSYALAR = [
          ['Sonra','New York\'ta yargılanacağı açıklanır.']],
   kare:[['kapak_maduro.jpg','Caracas']], harita:[10.504,-66.917] },
 
-{ id:'elmencho', liste:'havadis', no:'2026/002', ad:'Kartel Savaşları Başladı', yer:'Jalisco, Meksika', tarih:'22 Şubat 2026',
+{ id:'elmencho', liste:'havadis', no:'2026/002', ad:'EL MENCHO OPERASYONU', yer:'Jalisco, Meksika', tarih:'22 Şubat 2026',
   v:'TkHfz8M13Uk', sure:'6 dk', durum:'GÜNDEM',
   ozet:'Son 48 saatte Meksika’yı sarsan El Mencho operasyonu yalnızca bir güvenlik hamlesi mi, yoksa dengelerini değiştirecek bir kırılma noktası mı? Yaşananları, resmi verileri ve olası güç kaymalarını bu dosyada inceliyoruz.',
   not:'Meksika\'da karteller o kadar güçlü yapılar ki devlet yanlarında oldukça aciz kalıyor.',
@@ -160,7 +160,7 @@ window.DOSYALAR = [
          ['22 Şubat 2026','Saklandığı yere yapılan baskında öldürülür.']],
   kare:[['yt_TkHfz8M13Uk.jpg','Jalisco']], harita:[20.659,-103.349] },
 
-{ id:'cin', liste:'havadis', no:'2026/005', ad:'Gizemli Semboller', yer:'Pekin, Çin', tarih:'Mayıs 2026',
+{ id:'cin', liste:'havadis', no:'2026/005', ad:'ÇİN\'İN SEMBOLLERİ', yer:'Pekin, Çin', tarih:'Mayıs 2026',
   v:'1Ct5R8hEOxI', sure:'5 dk', durum:'GÜNDEM',
   ozet:'Çin Devlet Başkanı Xi Jinping ve ABD Başkanı Donald Trump tarihi zirvede neler konuştu? Çin semboller kullanarak ne mesaj verdi? Sizin için derledik.',
   not:'Çin siyasi kültürü doğrudan ifadeler yerine tarihsel atıflar, edebi metaforlar ve diplomatik jestler üzerine kurulu.',
@@ -169,7 +169,7 @@ window.DOSYALAR = [
          ['Zirve','Xi, Trump\'ı Büyük Halk Salonu\'nda kapıda karşılar.']],
   kare:[['yt_1Ct5R8hEOxI.jpg','Pekin']], harita:[39.903,116.391] },
 
-{ id:'incel', liste:'havadis', no:'2026/004', ad:'İncel Nedir?', yer:'İnternet', tarih:'1997–2026',
+{ id:'incel', liste:'havadis', no:'2026/004', ad:'İNCEL KÜLTÜRÜ', yer:'İnternet', tarih:'1997–2026',
   v:'JLVCOPdVC40', sure:'4 dk', durum:'GÜNDEM',
   ozet:'Son dönemde toplumsal tartışmaların odağında yer alan \'incel\' alt kültürünü mercek altına alıyoruz. Bu terim ilk kez nasıl ortaya çıktı, dijital dünyadaki gelişimi hangi evrelerden geçti ve sosyolojik olarak nasıl bir dönüşüm yaşadı? İnternet tarihinin en karmaşık topluluklarından birinin kronolojik gelişimi bu videoda.',
   not:'',
