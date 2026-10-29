@@ -120,7 +120,7 @@ document.getElementById('kunye').innerHTML = [['Yer', d.yer], ['Tarih', d.tarih]
 document.getElementById('kareler').innerHTML = d.kare.slice(0, 4).map(k =>
   `<figure><img src="images/dosya/${k[0]}" alt="" loading="lazy" /><figcaption>${k[1]}</figcaption></figure>`).join('');
 document.getElementById('kareler').classList.add('k' + Math.min(d.kare.length, 4));
-document.getElementById('ozet').innerHTML = d.kalem ? d.ozet.replace(d.kalem, `<mark>${d.kalem}</mark>`) : d.ozet;
+document.getElementById('ozet').textContent = d.ozet;
 const iz = document.getElementById('izle'); iz.href = 'https://www.youtube.com/watch?v=' + d.v; iz.textContent = "YouTube'da izle · " + d.sure;
 const g = document.getElementById('geri'); g.href = 'liste.html?l=' + d.liste; g.textContent = '← ' + L.ad + ' listesindeki diğer dosyalar';
 </script>

@@ -103,7 +103,7 @@ const LISTE = {
   havadis: { ad:'Havadis',     renk:'havadis', yt:'PL6TRIugwN7QVBLuHmSA-9O_YUpNxHZn48', acik:'Gündemdeki olayların arka planını hızlıca anlattığımız serimiz.' }
 };
 const q = new URLSearchParams(location.search);
-function kisa(t, n){ const c = t.split('. '); let o=''; for (const x of c){ if((o+x).length>n) break; o += x + '. '; } return (o || t.slice(0,n)).trim(); }
+function kisa(t, n){ const c = t.match(/[^.?!…]+[.?!…]+["'”’]?\s*/g) || [t]; let o=''; for (const x of c){ if((o+x).length>n) break; o += x; } if(!o){ o = t.slice(0,n); o = o.slice(0, o.lastIndexOf(' ')) + '…'; } return o.trim(); }
 </script>
 
 <script>
