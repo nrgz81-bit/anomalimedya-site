@@ -6,6 +6,19 @@
 window.DOSYALAR = [
 
 /* ===================== COLD CASE ===================== */
+{ id:'spencer', liste:'cold', no:'1988/001', ad:'TIMOTHY SPENCER DAVASI', yer:'Virginia, ABD', tarih:'1984–1994',
+  v:'7ts5S_Dxf-Y', sure:'25 dk', durum:'ÇÖZÜLDÜ',
+  ozet:'1984\'te Arlington\'da genç bir avukat evinde ölü bulunur. Polis kısa sürede bir şüpheli bulur, garip bir sorgunun ardından hapse atılır ve dosya kapanır. Üç yıl sonra Richmond\'da benzer olaylar yeniden başlar. DNA testi sayesinde mahkûm edilen ilk suçlunun hikâyesi.',
+  not:'Arlington\'daki maskeli saldırgan 1984\'ün başında birden durmuştur.',
+  zaman:[['25 Ocak 1984','Arlington\'da genç bir avukat evinde ölü bulunur.'],
+         ['4 Şubat 1984','İki dedektif David Vasquez\'i sorguya alır.'],
+         ['3 Şubat 1985','Vasquez, avukatının önerisiyle Alford savunması yapar ve hapse girer.'],
+         ['Eylül 1987','Richmond\'da benzer cinayetler başlar.'],
+         ['20 Ocak 1988','Arlington polisi Timothy Spencer\'ı tutuklar.'],
+         ['4 Ocak 1989','Vasquez affedilir.'],
+         ['27 Nisan 1994','Spencer, Greensville Cezaevi\'nde idam edilir.']],
+  kare:[['yt_7ts5S_Dxf-Y.jpg','Arlington, 1984']], harita:[38.880,-77.107] },
+
 { id:'gg', liste:'cold', no:'1998/017', ad:'BASTILLE CANAVARI', yer:'Paris, Fransa', tarih:'1991–1998',
   v:'7mvn9JGQ9wQ', sure:'33 dk', durum:'ÇÖZÜLDÜ',
   ozet:'Kadınları yedi sene sokakta yürümekten bile korkutan dosya. Bu belgeselde 1991–1998 yılları arasında Doğu Paris\'te yaşanan "Bastille Canavarı" dosyasını belgelerle inceliyoruz: kaçırılan ipuçları, polisin elindeki DNA\'yı kimseyle karşılaştıramaması, bir annenin kendi yürüttüğü soruşturma ve kuralları zorlayan aykırı bir yargıcın ısrarlı çabası.',
@@ -65,6 +78,31 @@ window.DOSYALAR = [
   kare:[['yt_x6HzNrCTqSo.jpg','Gibbons ikizleri']], harita:[51.80,-4.97] },
 
 /* ===================== DERİN İŞLER ===================== */
+{ id:'sg', liste:'derin', no:'1976/317', ad:'YÜZYILIN SOYGUNU', yer:'Nice, Fransa', tarih:'1976–1989',
+  v:'5tW8e3bJ0_g', sure:'46 dk', durum:'ARŞİV',
+  ozet:'Temmuz 1976\'da Nice\'te bir grup adam, kanalizasyondan kazdıkları tünelle Société Générale bankasının kasa dairesine girdi ve hafta sonu boyunca kasada kalıp 317 kiralık kasayı boşalttı. Daha sonra filmlere ve belgesellere konu olan, kimin yaptığı ise hâlâ tartışılan "yüzyılın soygunu"nu ve bu inanılmaz hikâyeyi sizin için oldukça detaylı araştırdık.',
+  not:'Bunlardan biri onun için ilham kaynağı olacaktır: İngiliz yazar Robert Pollock\'un 1972\'de yayımlanan "Loophole" adlı romanı.',
+  zaman:[['1972','Robert Pollock\'un "Loophole" romanı yayımlanır.'],
+         ['16 Temmuz 1976','Hafta sonu başlar. Tünelden kasa dairesine girilir, 317 kiralık kasa boşaltılır.'],
+         ['26 Ekim 1976','Polis Marsilya ve Nice\'te büyük bir baskın başlatır.'],
+         ['10 Mart 1977','Albert Spaggiari, sorgu sırasında hâkimin odasından kaçar.'],
+         ['22 Ekim 1979','Nice\'te asıl dava başlar.'],
+         ['8 Haziran 1989','Spaggiari 56 yaşında hayatını kaybeder. Bir daha yakalanmamıştır.']],
+  kare:[['yt_5tW8e3bJ0_g.jpg','Nice, 1976']], harita:[43.701,7.268] },
+
+{ id:'alcatraz', liste:'derin', no:'1962/011', ad:'ALCATRAZ\'DAN KAÇIŞ', yer:'San Francisco, ABD', tarih:'1960–2016',
+  v:'NE8sScMmQic', sure:'31 dk', durum:'ÇÖZÜLEMEDİ',
+  ozet:'Bu kaçışların en ünlüsü kuşkusuz Alcatraz Hapishanesi\'ndeki meşhur olaydır. Frank Morris ile John ve Clarence Anglin kardeşlerin yaptığı akıl almaz plan ve ardından ortadan kaybolmaları, yıllardır konuşulmaya devam eden bir gizeme dönüştü. Alcatraz Hapishanesi\'nin hikâyesini, bu üç adamın nasıl kaçtığını ve sonrasında yaşanan her şeyi en son gelişmelere kadar derledik.',
+  not:'Bütün bu olaylar Alcatraz\'dan kimsenin kaçamayacağı efsanesini büyütür.',
+  zaman:[['Ocak 1960','Frank Morris, AZ-1441 numarasıyla Alcatraz\'a gelir.'],
+         ['Ekim 1960 – Ocak 1961','John ve Clarence Anglin kardeşler de aynı hapishaneye gelir.'],
+         ['1962 baharı','Clarence, hücre bloğunun tavanındaki havalandırma bacasına ulaşır.'],
+         ['11 Haziran 1962','Üç mahkûm hücrelerinden çıkar ve bir daha görülmez.'],
+         ['Mart 1963','Alcatraz\'ın kapatılmasına karar verilir.'],
+         ['1979','FBI dosyayı kapatır.'],
+         ['2013','San Francisco polisine bir mektup gelir.']],
+  kare:[['yt_NE8sScMmQic.jpg','Alcatraz, 1962']], harita:[37.827,-122.423] },
+
 { id:'columbine', liste:'derin', no:'1999/042', ad:'COLUMBINE LİSESİ KATLİAMI', yer:'Colorado, ABD', tarih:'1996–1999',
   v:'jy_thrr_1U0', sure:'19 dk', durum:'ARŞİV',
   ozet:'Columbine önlenebilir miydi? Bu belgeselde 1999\'da Colorado\'daki Columbine Lisesi\'nde yaşanan olayın arkasındaki ihmaller zincirini belgelerle inceliyoruz: görmezden gelinen uyarı işaretleri, yetkililere yapılan şikâyetler, o günün dakika dakika akışı ve medyanın yıllarca anlattığı efsaneler. Olaydan bir yıldan uzun süre önce bir aile şerif ofisine defalarca şikâyette bulunmuştu. Arama izni taslağı hazırlandı ama hiçbir zaman hâkime sunulmadı. Bu ve buna benzer sinyaller ciddiye alınsaydı neler değişebilirdi?',
